@@ -1,0 +1,175 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+
+.quickview-wrapper .quickview-toggle {
+    opacity: 1;
+}
+
+@media (max-width: 767px){
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+/* style sidebar custom */
+.page-sidebar .sidebar-menu .menu-items > li > a {
+	border-bottom: 1px solid #8a8a8a40;
+	text-decoration: none;
+	position: relative;
+}
+.page-sidebar .sidebar-menu .menu-items > li > a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 1px solid #f1d5688c;
+	transition: 0.4s;
+}
+.page-sidebar .sidebar-menu .menu-items > li > a:hover::after {
+	width: 100%;
+}
+
+/* ????? */
+.nav-tabs > li > a{
+	padding: 10px !important;
+}
+.pagination {
+	font-size: 12px !important;
+    padding: 15px 33px !important;
+    color: #575757 !important;
+}
+
+/* table cart order */
+.table-scrollable {
+    height: 358px !important;
+}
+.table-cart tbody tr td {
+    padding: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.table-responsive {
+    border: none;
+}
+
+/* style select icon */
+.form-group-default.form-group-default-selectFx .cs-wrapper .cs-select {
+	font-family: FontAwesome, sans-serif;
+}
+
+/* style button proccess */
+.btn-process span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.btn-process span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.btn-process:hover span {
+	padding-right: 25px;
+}
+.btn-process:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/* style sales cart */
+.col-cart {
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* progress status bar */
+.pb ul {
+	margin: 0;
+	padding: 0; 
+
+}
+.pb li {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	/* text-align: center; */
+}
+.current {
+	color: orange;
+}
+.pb span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: #b3b3b3;
+	border-radius: 100px;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+}
+.current span {
+	background: orange;
+}
+
+/* details opname */
+.details-op p {
+	font-family: 'Montserrat';
+}
+
+/* table sales */
+.table-sales table tbody tr td {
+	padding: 10px !important;
+}
+
+/* START scrollbar style */
+
+/* style 1 */
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(177, 177, 177, 0.3);
+	background-color: #555;
+}
+
+/* style 3 */
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(177, 177, 177, 0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #cacaca;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+/* END scrollbar style */

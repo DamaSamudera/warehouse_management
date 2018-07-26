@@ -1,0 +1,16 @@
+{
+  "statistik":
+  {
+    "product":{
+      "update" : "12/feb/2018 | 08:00",
+      "active_product" : 2000,
+      "percent_product" : 90
+    },
+    "seller":{
+      "product_barcode":"BR00002",
+      "product_name":"Barang 1",
+      "sales_date" : "12/feb/2018",
+      "qty":90
+    }
+  }
+}

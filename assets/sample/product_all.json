@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "GELANG KULIT KOMBIN",
+      "description": "AKSESORIS",
+      "barcode": "AK000001",
+      "is_active": "1",
+      "is_order": "1",
+      "is_stock_tracking": "1",
+      "picture": null,
+      "created": "2018-01-01 00:00:00",
+      "modified": "2018-01-01 00:00:00",
+      "category_id": "1",
+      "brand_id": "1",
+      "supplier_id": "888"
+    },
+    {
+      "id": "2",
+      "name": "GELANG TALI",
+      "description": "AKSESORIS",
+      "barcode": "AK000002",
+      "is_active": "1",
+      "is_order": "1",
+      "is_stock_tracking": "1",
+      "picture": null,
+      "created": "2018-01-01 00:00:00",
+      "modified": "2018-01-01 00:00:00",
+      "category_id": "1",
+      "brand_id": "1",
+      "supplier_id": "888"
+    },
+    {
+      "id": "3",
+      "name": "GELANG",
+      "description": "AKSESORIS",
+      "barcode": "AK000003",
+      "is_active": "1",
+      "is_order": "1",
+      "is_stock_tracking": "1",
+      "picture": null,
+      "created": "2018-01-01 00:00:00",
+      "modified": "2018-01-01 00:00:00",
+      "category_id": "1",
+      "brand_id": "1",
+      "supplier_id": "888"
+    }
+  ]
+}
